@@ -57,7 +57,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }, redTime);
             //after disappering circles display none of start and reset
             document.getElementById('start').style.display = 'none';
-            document.getElementById('reset').style.display = 'none';
         }
     });
 
