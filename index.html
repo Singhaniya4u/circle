@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Display Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="top">
+        <div>
+            <label for="red">Red :</label>
+            <input type="number" id="red" min="1">
+        </div>
+        
+        <div>
+            <label for="green">Green :</label>
+            <input type="number" id="green" min="1">
+        </div>
+        
+        <div>
+            <label for="blue">Blue :</label>
+            <input type="number" id="blue" min="1">
+        </div>
+    </div>
+    <div id="belowTop">
+        <label for="numberOfCircles">Number of Circle :</label>
+        <input type="number" id="numberOfCircles" min="0" max="10">
+    </div>
+    <div id="center">
+        <button id="submit" class="button">Submit</button>
+    </div>
+    
+    <div id="circleContainer"></div>
+    <div id="bottom">
+        <button id="start" class="button start" style="display: none;">Start</button>
+        <button id="reset" class="button reset" style="display: none;">Reset</button>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>

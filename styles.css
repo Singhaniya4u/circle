@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 0 50px;
+}
+#belowTop{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px;
+}
+#circleContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+.button {
+    cursor: pointer;
+    color: black;
+}
+#center{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#bottom{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+#start{
+    margin-right: 10px;
+}
